@@ -37,7 +37,7 @@ export default function Home() {
 
         <section id="main" > 
             <div className="main_div">
-                <h3>Hello! My name is Debi Codriansky</h3>
+                <h3>Hello! My name is Debi Codriansk</h3>
                 <h1>Web development 
                 <br/>
                 and UX - UI designer</h1>
