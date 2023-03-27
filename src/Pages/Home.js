@@ -37,7 +37,7 @@ export default function Home() {
 
         <section id="main" > 
             <div className="main_div">
-                <h3>Hello! My name is Debi Codriansk</h3>
+                <h3>Hello! My name is Debi Codriansky</h3>
                 <h1>Web development 
                 <br/>
                 and UX - UI designer</h1>
@@ -90,7 +90,12 @@ export default function Home() {
         <p> I studied at Pontificia Universidad Católica de Chile and graduated as a strategic designer. I use my graphic design skills combined with my coding knowledge to provide users with the best experience possible.</p>
       </div>
       <div className="aboutme_cv">
-        <img src={cv}/>
+        <a href="../img/cv_debi.pdf" download>
+          <div className="aboutme_cv_download">
+            <img src={cv} />
+            <p>Download my CV</p>
+         </div>
+        </a>
       </div>
     </div>
     </> 

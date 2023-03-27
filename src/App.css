@@ -364,6 +364,13 @@ section#main {
   width: 12vw;
 }
 
+.aboutme_cv_download {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .footer_color {
   position: relative;
   background-color: #343434;
@@ -684,7 +691,8 @@ section#main {
   }
   .more_projects svg {
     width: 20%;
-    display: block;
+    display: flex;
+    margin: 50%;
   }
   .services h3 {
     font-size: 4vw;
