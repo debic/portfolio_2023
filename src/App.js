@@ -15,7 +15,7 @@ function App() {
 
   async function readProjects(){
     try{
-      const saved = await axios.get(`${process.env.REACT_APP_SERVER_URL}/projects/`)
+      const saved = await axios.get(`https://debicp-fe.herokuapp.com/projects/`)
       setProjects(saved.data)
     }catch(err){
       console.log(err)
