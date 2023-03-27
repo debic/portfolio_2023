@@ -15,7 +15,7 @@ function App() {
 
   async function readProjects(){
     try{
-      const saved = await axios.get(`https://debicp.herokuapp.com/projects/`)
+      const saved = await axios.get(`https://debicp.herokuapp.com/projects`)
       setProjects(saved.data)
     }catch(err){
       console.log(err)
