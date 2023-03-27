@@ -360,7 +360,6 @@ section#main {
   flex-direction: column;
 }
 .aboutMe img {
-  padding: 15vh 0vw;
   width: 12vw;
 }
 
@@ -369,6 +368,11 @@ section#main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 15vh 0vw;
+}
+.aboutme_cv_download p {
+  text-align: center;
+  color: white;
 }
 
 .footer_color {
