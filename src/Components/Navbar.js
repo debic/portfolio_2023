@@ -24,7 +24,7 @@ export default function Navbar() {
     <nav className="navbar " >
       <div className="containerNavbar">
         <div className="logo">
-          <a href="http://localhost:3000">
+          <a href="https://debicp-fe.herokuapp.com">
           <img src={Logo} />
           </a>
         </div>

@@ -3,6 +3,7 @@ body {
   margin: 0px;
   color: white;
   text-align: left;
+  max-width: 100%;
   overflow-x: hidden;
 }
 
@@ -641,6 +642,9 @@ section#main {
     grid-template-columns: 10fr 1fr;
     height: 85vh;
     grid-template-areas: "main main" "main main " " main main ";
+  }
+  .main_div h3 {
+    font-size: 18px;
   }
   .LatestProyects {
     height: 30vh;
