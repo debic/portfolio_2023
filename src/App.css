@@ -647,18 +647,18 @@ section#main {
     font-size: 18px;
   }
   .main_div .img1 {
-    width: 80%;
+    width: 70%;
     height: auto;
-    top: 20%;
+    top: 40%;
     left: 0%;
-    transform: translate(100%, 100%) rotate(0deg) translate(10px) rotate(0deg);
+    transform: translate(100%, 100%) rotate(0deg) translate(5px) rotate(0deg);
     animation: move1 5s linear infinite;
   }
   .main_div .img2 {
     width: 80%;
     height: auto;
     position: absolute;
-    top: 20%;
+    top: 40%;
     left: 0%;
     transform: translate(100%, 100%) rotate(0deg) translate(-10px) rotate(0deg);
     animation: move2 20s linear infinite;
@@ -678,6 +678,13 @@ section#main {
     font-size: 12px;
     width: 60vw;
     margin-left: 0%;
+  }
+  .more_projects {
+    padding: 10vh 0;
+  }
+  .more_projects svg {
+    width: 20%;
+    display: block;
   }
   .services h3 {
     font-size: 4vw;

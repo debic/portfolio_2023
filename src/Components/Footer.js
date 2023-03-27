@@ -23,7 +23,7 @@ export default function Footer() {
         </div>
         <h2>Are you interested? 
         <br/>
-        Write me</h2>
+        Contact me</h2>
         <div className="contact">
             <a href="https://www.linkedin.com/in/debi-codriansky-834655179/" target="_blank"><p>Linkedin</p></a>
             <a href="mailto:debicps@gmail.com?subject=Debi%20Codriansky&body=Hi%20Debi!" ><p>Email</p></a>
