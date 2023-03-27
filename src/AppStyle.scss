@@ -749,8 +749,8 @@ section#line2 {
     .img1 {
       width: 80%;
       height: auto;
-      top: 10%;
-      left: 10%;
+      top: 20%;
+      left: 0%;
       transform: translate(100%, 100%) rotate(0deg) translate(10px) rotate(0deg);
       animation: move1 5s linear infinite;
     }
@@ -759,8 +759,8 @@ section#line2 {
       width: 80%;
       height: auto;
       position: absolute;
-      top: 10%;
-      left: 10%;
+      top: 20%;
+      left: 0%;
       transform: translate(100%, 100%) rotate(0deg) translate(-10px) rotate(0deg);
       animation: move2 20s linear infinite;
     }
@@ -818,6 +818,7 @@ section#line2 {
     p{
       width: 60vw;
       text-align: center;
+      font-size: 16px;
     }
     .aboutme_text{
       display: flex;
