@@ -13,7 +13,7 @@ const [isLoading, setIsLoading] = useState(true);
 
 
 async function getProjectById() {
-  const res = await axios.get(`${process.env.REACT_APP_SERVER_URL}/projects/id/${id}`);
+  const res = await axios.get(`https://debicp.herokuapp.com/projects/id/${id}`);
   setCurrentProject(res.data);
   setProjectImages(res.data.projectImages);
   setIsLoading(false);

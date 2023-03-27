@@ -11,7 +11,7 @@ export default function Projects() {
   const [filter, setFilter] = useState("");
 
 async function getProjectFilter() {
-  const res = await axios.get(`https://debicp-fe.herokuapp.com/projects/${filter}`);
+  const res = await axios.get(`https://debicp.herokuapp.com/projects/${filter}`);
   setProjects(res.data);
 }
 
