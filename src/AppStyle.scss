@@ -747,21 +747,21 @@ section#line2 {
     }
   
     .img1 {
-      width: 50%;
+      width: 80%;
       height: auto;
       top: 10%;
       left: 10%;
-      transform: translate(100%, 100%) rotate(0deg) translate(50px) rotate(0deg);
+      transform: translate(100%, 100%) rotate(0deg) translate(10px) rotate(0deg);
       animation: move1 5s linear infinite;
     }
   
     .img2 {
-      width: 50%;
+      width: 80%;
       height: auto;
       position: absolute;
       top: 10%;
       left: 10%;
-      transform: translate(100%, 100%) rotate(0deg) translate(-50px) rotate(0deg);
+      transform: translate(100%, 100%) rotate(0deg) translate(-10px) rotate(0deg);
       animation: move2 20s linear infinite;
     }
   
@@ -772,6 +772,7 @@ section#line2 {
     height: 30vh;
     padding: 0% 8%;
     display: flex;
+    flex-direction: column;
     h2{
       width: 60vw;
       margin-right: 0%;
