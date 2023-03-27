@@ -34,10 +34,10 @@ export default function Navbar() {
         <div className={`nav-elements ${showNavbar && 'active'}`}>
           <ul>
             <li >
-            <a href="http://localhost:3000/" >Home</a>
+            <a href="https://debicp-fe.herokuapp.com/" >Home</a>
             </li>
             <li>
-            <a href="http://localhost:3000/projects" >Projects</a>
+            <a href="https://debicp-fe.herokuapp.com/projects" >Projects</a>
             </li>
             <li>
               <p onClick={(e) => handleLinkClick()}>Contact</p>
