@@ -30,7 +30,8 @@ export default function ProjectCard({project}) {
         <div className="card" >
           <div className="card-image" style={cardStyle}></div>
           <div className="card-content">
-            <h2>{project.name} - {project.short_description}</h2>
+            <h2>{project.name} - </h2>
+            <h3>{project.short_description}</h3>
           </div>
         </div>
     </Link>
