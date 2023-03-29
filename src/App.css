@@ -280,6 +280,7 @@ section#main {
 
 .card:hover .card-content {
   opacity: 1;
+  display: flex;
 }
 
 .more_projects {

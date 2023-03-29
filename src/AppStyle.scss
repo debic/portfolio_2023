@@ -306,13 +306,14 @@ section#main {
       font-family: 'DM Serif Text', serif;
       position: absolute;
       bottom: 10%;
-    color: white;
+      color: white;
     }
 
   }
   
   .card:hover .card-content {
     opacity: 1;
+    display: flex;
   }
 
 
