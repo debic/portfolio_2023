@@ -301,6 +301,7 @@ section#main {
     color: white;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
+    display: flex;
     h2{
       font-family: 'DM Serif Text', serif;
       position: absolute;
