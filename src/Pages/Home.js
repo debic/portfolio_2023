@@ -15,8 +15,8 @@ export default function Home() {
   const{projects, setProjects} = useContext(ProjectsContext)
   function splitProjects(){
     setProjects(projects.slice(2, 5))
+    console.log(projects)
   }
-
 
   useEffect(() => {
     splitProjects()
