@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import {useContext} from 'react';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaBehance } from "react-icons/fa";
@@ -8,6 +8,7 @@ import Circle1 from '../img/circle_1.png';
 import Circle2 from '../img/circle_.png';
 import Web_dev from "../img/web_dev.png"
 import cv from  "../img/cv.png"
+import ProjectsContext from '../Context/ProjectsContext'
 import { FaChevronRight } from "react-icons/fa";
 
 export default function Home() {
