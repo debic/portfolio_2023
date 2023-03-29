@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaBehance } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import ProjectList from '../Components/ProjectList';
+import ProjectListLast from '../Components/ProjectListLast';
 import Circle1 from '../img/circle_1.png';
 import Circle2 from '../img/circle_.png';
 import Web_dev from "../img/web_dev.png"
@@ -50,7 +50,7 @@ export default function Home() {
     </section>
 
     <div className='flex_row'>
-          <ProjectList/>
+          <ProjectListLast/>
     </div>
 
     <div className='more_projects'>
