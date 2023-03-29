@@ -7,7 +7,7 @@ export default function ProjectList() {
 const{projects} = useContext(ProjectsContext)
   return (
     <>
-    {projects.slice(0,5).map((project) => {
+    {projects.map((project) => {
     
           return ( 
             <ProjectCard project={project} key={project._id}/>
