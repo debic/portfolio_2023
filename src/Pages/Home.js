@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import {useContext} from 'react';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaBehance } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -12,14 +11,7 @@ import ProjectsContext from '../Context/ProjectsContext'
 import { FaChevronRight } from "react-icons/fa";
 
 export default function Home() {
-  const{projects, setProjects} = useContext(ProjectsContext)
-  function splitProjects(){
-    console.log(projects)
-  }
 
-  useEffect(() => {
-    splitProjects()
-  }, [])
 
   return (
     <>
