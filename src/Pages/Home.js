@@ -55,7 +55,7 @@ export default function Home() {
 
     <div className='more_projects'>
       <div className='more_projects_hover'>
-      <a href="https://debicp-fe.herokuapp.com/projects" >
+      <a className='more_projects_hover_flex' href="https://debicp-fe.herokuapp.com/projects" >
         <h2>See more projects</h2>
         <FaChevronRight size="4em"/></a>
       </div>

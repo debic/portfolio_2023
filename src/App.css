@@ -305,6 +305,10 @@ section#main {
   color: white;
 }
 
+.more_projects_hover_flex {
+  display: flex;
+}
+
 .services {
   background-color: #F0F0F0;
   padding: 15vh 0vw;
