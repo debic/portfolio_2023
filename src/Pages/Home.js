@@ -1,4 +1,5 @@
 import React from 'react'
+import {useContext} from 'react';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaBehance } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -9,12 +10,16 @@ import Web_dev from "../img/web_dev.png"
 import cv from  "../img/cv.png"
 import { FaChevronRight } from "react-icons/fa";
 
-
-
 export default function Home() {
+  const{projects, setProjects} = useContext(ProjectsContext)
+  function splitProjects(){
+    setProjects(projects.slice(2, 5))
+  }
 
 
-
+  useEffect(() => {
+    splitProjects()
+  }, [])
 
   return (
     <>

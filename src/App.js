@@ -32,7 +32,6 @@ function App() {
     <ProjectsContext.Provider value={{projects, currentProject, setCurrentProject, setProjects}}>
      <div className="App">
      <Navbar/>
-
        <Routes>
          <Route path="/" element={<Home />} />
          <Route path="/projects" element={<Projects />} />
