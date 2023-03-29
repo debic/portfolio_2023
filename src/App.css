@@ -218,6 +218,7 @@ section#main {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 99;
 }
 .LatestProyects h2 {
   margin-right: 4vw;
@@ -289,9 +290,6 @@ section#main {
 }
 
 .more_projects_hover {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   cursor: pointer;
 }
 .more_projects_hover h2 {
@@ -307,6 +305,7 @@ section#main {
 
 .more_projects_hover_flex {
   display: flex;
+  align-items: center;
 }
 
 .services {

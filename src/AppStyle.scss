@@ -244,7 +244,7 @@ section#main {
   display: flex;
   justify-content:center;
   align-items: center;
-
+z-index: 99;
   h2{
     margin-right: 4vw;
     text-align: center;
@@ -324,9 +324,7 @@ section#main {
   }
 
 .more_projects_hover{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   cursor: pointer;
   h2{
     color: white;
@@ -342,6 +340,7 @@ section#main {
 
 .more_projects_hover_flex{
   display: flex;
+  align-items: center;
 }
 
   .services{
