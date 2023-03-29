@@ -306,6 +306,7 @@ section#main {
 .more_projects_hover_flex {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .services {
