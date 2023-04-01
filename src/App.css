@@ -485,7 +485,8 @@ section#main {
 .project_info a {
   color: #ABCFD7;
   font-size: 20px;
-  margin-top: 10%;
+  margin-top: 5%;
+  text-decoration: underline;
 }
 
 .projectImages {
@@ -809,12 +810,22 @@ section#main {
     z-index: 99;
   }
   .project_info {
-    padding: 5% 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .project_info p {
+    width: 90vw;
+  }
+  .project_info .project_info_column {
     display: flex;
     flex-direction: column;
   }
-  .project_info p {
-    width: 70vw;
+  .project_info a {
+    font-size: 12px;
+    margin-top: 5%;
+    text-decoration: underline;
   }
   .filter {
     flex-direction: column;

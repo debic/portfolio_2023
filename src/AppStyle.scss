@@ -526,7 +526,8 @@ position: absolute;
   a{
     color: $primary-color;
     font-size: 20px;
-    margin-top: 10%;
+    margin-top: 5%;
+    text-decoration: underline;
   }
 }
 
@@ -925,14 +926,24 @@ section#line2 {
     }
   }
 
-  .project_info{
-    padding: 5% 0%;    
+.project_info{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  text-align: center;
+  p{
+    width: 90vw;
+  }
+  .project_info_column{
     display: flex;
     flex-direction: column;
-    p{
-      width: 70vw;
-    }
   }
+  a{
+    font-size: 12px;
+    margin-top: 5%;
+    text-decoration: underline;
+  }
+}
 
   //FILTER
 .filter{
