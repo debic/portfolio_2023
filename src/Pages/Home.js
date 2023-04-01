@@ -35,7 +35,7 @@ export default function Home() {
         <section id="main" > 
             <div className="main_div">
                 <h3>Hello! My name is Debi Codriansky</h3>
-                <h1>Web development 
+                <h1>Web developer 
                 <br/>
                 and UX - UI designer</h1>
                 <img className="img1" src={Circle1}/> 
