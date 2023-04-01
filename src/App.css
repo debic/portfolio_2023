@@ -564,7 +564,7 @@ section#main {
   }
   .services .services_flex {
     justify-content: center;
-    width: 90vw;
+    width: 100%;
   }
   .services .service_card {
     display: flex;
