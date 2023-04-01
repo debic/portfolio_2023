@@ -369,6 +369,7 @@ section#main {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
+  margin-top: 5%;
   cursor: pointer;
 }
 
@@ -511,6 +512,21 @@ section#main {
   }
   p {
     font-size: 22px;
+  }
+  .main_div .img1 {
+    position: absolute;
+    width: 50vw;
+    top: 20%;
+    left: 20%;
+    transform: translate(100%, 100%) rotate(0deg) translate(50px) rotate(0deg);
+    animation: move1 5s linear infinite;
+  }
+  .main_div .img2 {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    transform: translate(100%, 100%) rotate(0deg) translate(-50px) rotate(0deg);
+    animation: move2 20s linear infinite;
   }
   .LatestProyects {
     flex-direction: column;
