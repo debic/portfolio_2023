@@ -932,7 +932,11 @@ section#line2 {
   justify-content:center;
   text-align: center;
   p{
-    width: 90vw;
+    width: 100%;
+  }
+  h2{
+    margin-right: 0%;
+    margin-bottom: 5%;
   }
   .project_info_column{
     display: flex;
@@ -942,6 +946,7 @@ section#line2 {
     font-size: 12px;
     margin-top: 5%;
     text-decoration: underline;
+    font-weight: 400;
   }
 }
 
