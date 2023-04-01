@@ -49,8 +49,8 @@ if (isLoading && !currentProject) {
         <h2>About</h2>
         <div className='project_info_column'>
             <p>{currentProject.long_description}</p>
-            {currentProject.web_link=="none"?  <></> : <a href={currentProject.web_link}>Website link</a>}
-            {currentProject.github_link=="none"?  <></> : <a href={currentProject.github_link}>Github link</a>}
+            {currentProject.web_link==="none"?  <></> : <a target="_blank" href={currentProject.web_link}>Website link</a>}
+            {!currentProject.github_link==="none"?  <></> : <a target="_blank"  href={currentProject.github_link}>Github link</a>}
 
       </div>
     </div>
