@@ -553,7 +553,7 @@ section#main {
     margin: 0;
   }
   .services h3 {
-    font-size: 1.8vw;
+    font-size: 4vw;
     font-family: "DM Serif Text", serif;
     font-weight: 200;
     margin: 0px;
@@ -564,7 +564,7 @@ section#main {
   }
   .services .services_flex {
     justify-content: center;
-    width: 30vw;
+    width: 90vw;
   }
   .services .service_card {
     display: flex;
