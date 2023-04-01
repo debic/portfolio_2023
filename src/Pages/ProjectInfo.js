@@ -48,7 +48,7 @@ if (isLoading && !currentProject) {
      <div className='project_info'>
         <h2>About</h2>
         <p>{currentProject.long_description}</p>
-        {!currentProject.web_link ? {}
+        {currentProject.web_link === "none"? {}
         :
         <a>{currentProject.web_link}</a>
       }
