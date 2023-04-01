@@ -358,10 +358,10 @@ section#main {
   width: 12vw;
 }
 
-.aboutme_cv_download a {
+.aboutme_cv {
+  background-color: #ABCFD7;
   text-align: center;
   color: white;
-  background-color: #ABCFD7;
   border: none;
   padding: 15px 32px;
   text-align: center;

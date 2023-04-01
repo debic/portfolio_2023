@@ -84,11 +84,10 @@ export default function Home() {
         <h2>About me</h2>
         <p> I studied at Pontificia Universidad Católica de Chile and graduated as a strategic designer. I use my graphic design skills combined with my coding knowledge to provide users with the best experience possible.</p>
       </div>
-      <div className="aboutme_cv">
-        <a href="../img/cv_debi.pdf" download>
+
+        <a className="aboutme_cv" href="../img/cv_debi.pdf" download>
         Download my CV
         </a>
-      </div>
     </div>
     </> 
 
