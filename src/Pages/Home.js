@@ -68,7 +68,7 @@ export default function Home() {
         <h3>Web development </h3>
         <p>I develop custom websites to bring your ideas to life online. I use the tools that best suit your needs. Some are App MERN, wordpress and shopify.</p>
       </div>
-      <div className="service_card">
+      <div className="service_card service_card_margin">
        <h3> UX | UI</h3>
        <p>I can design intuitive and attractive user interfaces that enhance user satisfaction and increase conversion rates.</p>
       </div>

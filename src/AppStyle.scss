@@ -29,7 +29,7 @@ h1{
 }
 
 h2{
-  font-size: 2vw;
+  font-size: 3vw;
   font-family: 'DM Serif Text', serif;
   font-weight: 200;
   margin: 0;     
@@ -346,7 +346,7 @@ z-index: 99;
 
   .services{
     background-color: #F0F0F0;
-    padding: 15vh 15vw;
+    padding: 15vh 20vw;
     display: flex;
     justify-content: space-between;
     h2{
@@ -357,7 +357,6 @@ z-index: 99;
       font-size: 1.8vw;
       font-family: 'DM Serif Text', serif;
       font-weight: 200;     
-      text-align: center;
       margin: 0px;
       color: #1C1C1C;
     }
@@ -374,6 +373,9 @@ z-index: 99;
       display: flex;
       flex-direction: column;
     }
+    .service_card_margin{
+      margin: 5% 0%;
+    }
     img{
       width: 12vw;
     }
@@ -387,7 +389,6 @@ z-index: 99;
   padding: 0vh 10vw;
   p{
     width: 40vw;
-    font-size: 25px;
   }
   .aboutme_text{
     display: flex;
