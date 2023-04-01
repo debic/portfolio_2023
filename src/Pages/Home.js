@@ -64,18 +64,18 @@ export default function Home() {
     <section className='services' id="services" >
      <h2>Services</h2>
      <div className="services_flex">
-      <div className="service_card">
-        <h3>Web development </h3>
-        <p>I develop custom websites to bring your ideas to life online. I use the tools that best suit your needs. Some are App MERN, wordpress and shopify.</p>
-      </div>
-      <div className="service_card service_card_margin">
-       <h3> UX | UI</h3>
-       <p>I can design intuitive and attractive user interfaces that enhance user satisfaction and increase conversion rates.</p>
-      </div>
-      <div className="service_card">
-        <h3> Branding</h3>
-        <p>Crafting unique and memorable visual identities that embody the essence of your brand and resonate with your target audience.</p>
-      </div>
+        <div className="service_card">
+          <h3>Web development </h3>
+          <p>I develop custom websites to bring your ideas to life online. I use the tools that best suit your needs. Some are App MERN, wordpress and shopify.</p>
+        </div>
+        <div className="service_card service_card_margin">
+        <h3> UX | UI</h3>
+        <p>I can design intuitive and attractive user interfaces that enhance user satisfaction and increase conversion rates.</p>
+        </div>
+        <div className="service_card">
+          <h3> Branding</h3>
+          <p>Crafting unique and memorable visual identities that embody the essence of your brand and resonate with your target audience.</p>
+        </div>
     </div>
     </section>
 
