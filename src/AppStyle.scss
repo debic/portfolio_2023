@@ -810,7 +810,6 @@ section#line2 {
   
   }
 
-
   .LatestProyects{
     height: 30vh;
     padding: 0% 8%;
@@ -828,7 +827,6 @@ section#line2 {
     }
     }
 
-
     .more_projects {
       padding: 10vh 0;
 
@@ -840,7 +838,8 @@ section#line2 {
 
 
   .services{
-
+    display: flex;
+    flex-direction: column;
     h3{
       font-size: 4vw;
     }

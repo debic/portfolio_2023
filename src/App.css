@@ -730,6 +730,10 @@ section#main {
     width: 5%;
     display: flex;
   }
+  .services {
+    display: flex;
+    flex-direction: column;
+  }
   .services h3 {
     font-size: 4vw;
   }
