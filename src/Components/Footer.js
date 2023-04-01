@@ -17,7 +17,7 @@ export default function Footer() {
     <div  className="footer_color" id="contact">
        <div className="footer">
        <div >
-          <a href="http://localhost:3000">
+          <a href="https://debicp-fe.herokuapp.com">
           <img src={Logo} />
           </a>
         </div>
