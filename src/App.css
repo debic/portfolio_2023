@@ -277,6 +277,7 @@ section#main {
   position: absolute;
   bottom: 10%;
   color: white;
+  font-size: 2vw;
 }
 
 .card:hover .card-content {
