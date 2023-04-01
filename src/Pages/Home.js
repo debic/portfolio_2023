@@ -86,9 +86,7 @@ export default function Home() {
       </div>
       <div className="aboutme_cv">
         <a href="../img/cv_debi.pdf" download>
-          <div className="aboutme_cv_download">
-            <p>Download my CV</p>
-         </div>
+        Download my CV
         </a>
       </div>
     </div>

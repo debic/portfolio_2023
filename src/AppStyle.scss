@@ -383,11 +383,8 @@ z-index: 99;
 
 .aboutMe{
   background-color: rgb(215, 215, 215);
-
   padding: 15vh 20vw;
-  p{
-    width: 40vw;
-  }
+
   .aboutme_text{
     display: flex;
     flex-direction: column;
@@ -398,14 +395,19 @@ z-index: 99;
 }
 
 .aboutme_cv_download{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 15vh 0vw;
-  p{
+
+  a{
     text-align: center;
     color: white;
+    background-color:$primary-color;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
   }
 }
 
