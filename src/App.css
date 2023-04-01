@@ -542,7 +542,25 @@ section#main {
     margin-left: 0%;
   }
   .services {
+    background-color: #F0F0F0;
     padding: 15vh 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .services h2 {
+    font-weight: 200;
+    margin: 0;
+  }
+  .services h3 {
+    font-size: 1.8vw;
+    font-family: "DM Serif Text", serif;
+    font-weight: 200;
+    margin: 0px;
+    color: #1C1C1C;
+  }
+  .services p {
+    margin-top: 0px;
   }
   .services .services_flex {
     justify-content: center;
