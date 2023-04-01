@@ -512,13 +512,19 @@ position: absolute;
   display: flex;
   justify-content:center;
   align-items: center;
-
   h2{
     margin-right: 4vw;
     text-align: center;
   }
   p{
     width: 40vw;
+  }
+  .project_info_column{
+    display: flex;
+    flex-direction: column;
+  }
+  a{
+    color: $primary-color;
   }
 }
 

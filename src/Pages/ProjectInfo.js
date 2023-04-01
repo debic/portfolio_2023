@@ -47,11 +47,10 @@ if (isLoading && !currentProject) {
    </div>
      <div className='project_info'>
         <h2>About</h2>
-        <p>{currentProject.long_description}</p>
-        {currentProject.web_link=="none"? <></>
-        :
-        <a>{currentProject.web_link}</a>
-      }
+        <div className='project_info_column'>
+            <p>{currentProject.long_description}</p>
+            {currentProject.web_link=="none"?  <></> : <a>{currentProject.web_link}</a>}
+      </div>
     </div>
     <div>
 

@@ -478,6 +478,13 @@ section#main {
 .project_info p {
   width: 40vw;
 }
+.project_info .project_info_column {
+  display: flex;
+  flex-direction: column;
+}
+.project_info a {
+  color: #ABCFD7;
+}
 
 .projectImages {
   width: 100vw;
