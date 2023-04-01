@@ -328,8 +328,6 @@ section#main {
 }
 .services p {
   margin-top: 0px;
-  font-weight: 500;
-  width: 95%;
 }
 .services .services_flex {
   justify-content: center;
@@ -338,9 +336,11 @@ section#main {
 .services .service_card {
   display: flex;
   flex-direction: column;
+  padding-left: 5%;
+  border-left: 2px solid #1C1C1C;
 }
 .services .service_card_margin {
-  margin: 5% 0%;
+  margin: 10% 0%;
 }
 .services img {
   width: 12vw;
@@ -348,10 +348,7 @@ section#main {
 
 .aboutMe {
   background-color: rgb(215, 215, 215);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0vh 10vw;
+  padding: 15vh 20vw;
 }
 .aboutMe p {
   width: 40vw;

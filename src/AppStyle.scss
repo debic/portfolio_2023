@@ -362,8 +362,6 @@ z-index: 99;
     }
     p{
       margin-top: 0px;
-      font-weight: 500;
-      width: 95%;
     }
     .services_flex{
       justify-content: center;
@@ -372,9 +370,11 @@ z-index: 99;
     .service_card{
       display: flex;
       flex-direction: column;
+      padding-left: 5%;
+      border-left: 2px solid #1C1C1C;
     }
     .service_card_margin{
-      margin: 5% 0%;
+      margin: 10% 0%;
     }
     img{
       width: 12vw;
@@ -383,10 +383,8 @@ z-index: 99;
 
 .aboutMe{
   background-color: rgb(215, 215, 215);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0vh 10vw;
+
+  padding: 15vh 20vw;
   p{
     width: 40vw;
   }
