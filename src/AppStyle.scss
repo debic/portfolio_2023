@@ -508,16 +508,16 @@ position: absolute;
 
 .project_info{
   background-color: #F0F0F0;
-  height: 30vh;
+  padding: 10vh;
   display: flex;
   justify-content:center;
-  align-items: center;
   h2{
     margin-right: 4vw;
     text-align: center;
   }
   p{
     width: 40vw;
+    margin: 0%;
   }
   .project_info_column{
     display: flex;
@@ -525,6 +525,8 @@ position: absolute;
   }
   a{
     color: $primary-color;
+    font-size: 20px;
+    margin-top: 10%;
   }
 }
 
