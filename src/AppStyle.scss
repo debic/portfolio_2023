@@ -844,7 +844,7 @@ section#line2 {
       font-size: 4vw;
     }
     .services_flex{
-      padding:6vh 6vw;
+      padding:6vh 0vw;
       flex-direction: column;
       align-items: center;
     }
@@ -861,10 +861,9 @@ section#line2 {
 
 
   .aboutMe{
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 15vh 0vw;
+
     h2{
      text-align: center;
     }
@@ -879,10 +878,6 @@ section#line2 {
     }
     .aboutme_cv{
       text-align: center;
-    }
-    img{
-      padding: 0vh 0vw;
-      width: 60%;
     }
     
   }
